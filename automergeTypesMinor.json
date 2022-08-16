@@ -1,0 +1,12 @@
+{
+    "packageRules": [
+        {
+          "updateTypes": ["minor", "patch", "digest"],
+          "packagePatterns": ["^quadim-typelib", "^quadim-springservicebaselib"],
+          "groupName": "Main branch updates",
+          "automerge": true,
+          "enabled": true
+        }
+      ],
+      "platformAutomerge": true
+  }
