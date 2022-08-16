@@ -1,6 +1,8 @@
 {
     "extends": [
-      "config:base"
+      "config:base",
+      "github>quadimai/Quadim-Renovate-Config:automergePin",
+      "github>quadimai/Quadim-Renovate-Config:automergeTypesMinor"
     ],
     "labels": [
       "renovate"
