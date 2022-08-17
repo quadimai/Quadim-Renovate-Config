@@ -8,7 +8,11 @@
   "packageRules": [
     {
       "updateTypes": ["minor", "patch", "digest"],
-      "matchPackagePatterns": ["^ai.quadim.api:quadim"],
+      "matchPackagePatterns": [
+        "^ai.quadim.api:quadim", 
+        "^github.com/aws/aws-sdk-go",
+        "^com.amazonaws:aws-*"
+      ],
       "automerge": true,
       "enabled": true       
     }
