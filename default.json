@@ -1,10 +1,23 @@
 {
     "extends": [
-      "config:base",
-      "github>local/Quadim-Renovate-Config:automergePin",
-      "github>local/Quadim-Renovate-Config:automergeTypesMinor"
+      "config:base"
     ],
     "labels": [
       "renovate"
-    ]
+    ],
+    "pin": {
+      "automerge": true
+    },
+    "packageRules": [
+      {
+        "matchUpdateTypes": ["minor", "patch", "digest"],
+        "matchPackagePatterns": ["^quadim-typelib", "^quadim-springservicebaselib", "^aws-java-sdk", "^aws-sdk-go"],
+        "automerge": true,
+        "enabled": true,
+        "major": {
+          "automerge": false
+        }          
+      }
+    ],
+    "platformAutomerge": true
   }
