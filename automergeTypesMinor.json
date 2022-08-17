@@ -2,7 +2,7 @@
     "packageRules": [
         {
           "matchUpdateTypes": ["minor", "patch", "digest"],
-          "matchPackagePatterns": ["^quadim-typelib", "^quadim-springservicebaselib", "^aws-java-sdk", "aws-sdk-go"],
+          "matchPackagePatterns": ["^quadim-typelib", "^quadim-springservicebaselib", "^aws-java-sdk", "^aws-sdk-go"],
           "automerge": true,
           "enabled": true,
           "major": {
