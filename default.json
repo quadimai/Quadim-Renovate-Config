@@ -13,8 +13,7 @@
         "^github.com/aws/aws-sdk-go",
         "^com.amazonaws:aws-*"
       ],
-      "automerge": true,
-      "enabled": true       
+      "automerge": true
     }
   ]
 }
