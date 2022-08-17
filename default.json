@@ -5,10 +5,6 @@
   "labels": [
     "renovate"
   ],
-  "automerge": true,
-  "major": {
-    "automerge": false
-  },
   "packageRules": [
     {
       "updateTypes": ["minor", "patch", "digest"],
