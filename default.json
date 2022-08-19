@@ -8,6 +8,7 @@
   "packageRules": [
     {
       "updateTypes": ["minor", "patch", "digest"],
+      "IgnoteTests": true,
       "matchPackagePatterns": [
         "^ai.quadim.api:quadim", 
         "^github.com/aws/aws-sdk-go",
