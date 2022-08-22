@@ -11,6 +11,7 @@
       "matchPackagePatterns": [
         "^ai.quadim.api:quadim", 
         "^github.com/aws/aws-sdk-go",
+        "^net.whydah.sso:Whydah-*",
         "^com.amazonaws:aws-*"
       ],
       "automerge": true,
