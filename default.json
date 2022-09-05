@@ -9,11 +9,13 @@
     {
       "updateTypes": ["minor", "patch", "digest"],
       "matchPackagePatterns": [
-        "^ai.quadim.api:quadim", 
-        "^github.com/aws/aws-sdk-go",
-        "^com.fasterxml.jackson.dataformat:jackson*",  
-        "^net.whydah.sso:Whydah-*",
-        "^com.amazonaws:aws-*"
+          "^ai.quadim.api:quadim", 
+          "^github.com/aws/aws-sdk-go",
+          "^com.fasterxml.jackson.dataformat:jackson*",  
+          "^com.fasterxml.jackson.core:jackson-*",
+          "^com.slack.api:slack-api-client*",  
+           "^net.whydah.sso:Whydah-*",
+           "^com.amazonaws:aws-*"
       ],
       "automerge": true,
       "ignoreTests": true
