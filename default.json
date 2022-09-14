@@ -13,6 +13,7 @@
           "^github.com/aws/aws-sdk-go",
           "^com.fasterxml.jackson.dataformat:jackson*",  
           "^com.fasterxml.jackson.datatype:jackson*",  
+          "^com.fasterxml.jackson.module:jackson",  
           "^com.fasterxml.jackson.core:jackson-*",
           "^com.slack.api:slack-api-client*",  
            "^net.whydah.sso:Whydah-*",
