@@ -17,6 +17,7 @@
           "^com.fasterxml.jackson.core:jackson-*",
           "^com.slack.api:slack-api-client*",  
           "^net.whydah.sso:Whydah-*",
+          "^ch.qos.logback:logback-classic*",
           "^com.amazonaws:aws-*"
       ],
       "automerge": true,
