@@ -16,6 +16,7 @@
           "^com.fasterxml.jackson.module:jackson",  
           "^com.fasterxml.jackson.core:jackson-*",
           "^org.projectlombok:lombok*",
+          "^dev.langchain4j:langchain4j*",
           "^com.slack.api:slack-api-client*",  
           "^org.mapstruct:mapstruct*",
           "^net.whydah.sso:Whydah-*",
