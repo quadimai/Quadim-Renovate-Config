@@ -11,6 +11,7 @@
       "matchPackagePatterns": [
           "^ai.quadim.api:quadim", 
           "^github.com/aws/aws-sdk-go",
+          "^ch.qos.logback:logback-core*",  
           "^com.fasterxml.jackson.dataformat:jackson*",  
           "^com.fasterxml.jackson.datatype:jackson*",  
           "^com.fasterxml.jackson.module:jackson",  
