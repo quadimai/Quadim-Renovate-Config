@@ -12,6 +12,7 @@
           "^ai.quadim.api:quadim", 
           "^github.com/aws/aws-sdk-go",
           "^ch.qos.logback:logback-core*",  
+          "^ch.qos.logback:logback-classic*",
           "^com.fasterxml.jackson.dataformat:jackson*",  
           "^com.fasterxml.jackson.datatype:jackson*",  
           "^com.fasterxml.jackson.module:jackson",  
