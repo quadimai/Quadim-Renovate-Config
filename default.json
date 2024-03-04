@@ -22,6 +22,7 @@
           "^com.slack.api:slack-api-client*",  
           "^org.mapstruct:mapstruct*",
           "^net.whydah.sso:Whydah-*",
+          "^ch.qos.logback:logback*",
           "^ch.qos.logback:logback-classic*",
           "^com.amazonaws:aws-*"
       ],
